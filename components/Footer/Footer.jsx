@@ -1,0 +1,42 @@
+import Image from "next/image";
+import {
+  FooterContainer,
+  FooterContent,
+  Logo,
+  Desc,
+  Socials,
+  Links,
+  FooterBottom,
+  Span,
+} from "./FooterStyles";
+import { AiFillFacebook, AiFillInstagram, AiFillYoutube } from "react-icons/ai";
+
+const Footer = () => {
+  return (
+    <FooterContainer>
+      <FooterContent>
+        <Logo src="../img/LogoBlanco.svg"></Logo>
+        <Desc>
+          Empresa de venta de hamburguesas estilo Clásico Americano, posee un
+          sistema de operación simple y dinámico logrando una alta rentabilidad.
+        </Desc>
+      </FooterContent>
+      <Socials>
+        <Links href="#">
+          <AiFillFacebook size="2rem" />
+        </Links>
+        <Links href="#">
+          <AiFillInstagram size="2rem" />
+        </Links>
+        <Links href="#">
+          <AiFillYoutube size="2rem" />
+        </Links>
+      </Socials>
+      <FooterBottom>
+        <Span>copyright &copy; 2023 Guido Contarino - Big Pons </Span>
+      </FooterBottom>
+    </FooterContainer>
+  );
+};
+
+export default Footer;

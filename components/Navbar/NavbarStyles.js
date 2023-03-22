@@ -7,6 +7,7 @@ export const Nav = styled.nav`
 `;
 export const Img = styled.img`
   height: 120px;
+  cursor: pointer;
 `;
 export const NavMenu = styled.div`
   padding: 0;
@@ -38,7 +39,7 @@ export const Span = styled.span`
 export const Cart = styled.div`
   position: relative;
 `;
-export const Div = styled.div`
+export const Div = styled.section`
   position: absolute;
   top: -10px;
   right: -10px;

@@ -8,8 +8,10 @@ import {
   CardText,
   Button,
   Img,
+  Price,
 } from "./BurgerCardStyles";
 import { BURGERS } from "../Constants";
+import Link from "next/link";
 
 const BurgerCard = () => {
   return (
@@ -22,8 +24,11 @@ const BurgerCard = () => {
               <CardText>
                 <Title>{p.name}</Title>
                 <Description>{p.desc}.</Description>
+                <Price>{p.price}</Price>
               </CardText>
-              <Button>{p.price}</Button>
+              <Link href={"../burger/{p.name}"}>
+                <Button>Ver</Button>
+              </Link>
             </CardBody>
           </Card>
         );

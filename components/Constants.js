@@ -15,6 +15,7 @@ export const BURGERS = [
     name: "Big Pons Simple + Papas Fritas",
     desc: "Medallon x1 Cheddar Fetas x2 Bacon Cebolla Crispy Aderezo Big Pons",
     price: "$ 2.400",
+    link: "../../product/a",
   },
   {
     img: "/img/SweetOnionSimple.jpeg",
@@ -22,6 +23,7 @@ export const BURGERS = [
     name: "Sweet Onion Simple + Papas Fritas",
     desc: "Medallon x1 Cheddar Fetas x2 Bacon Cebolla Caramelizada",
     price: "$ 2.400",
+    link: "../../product/b",
   },
 
   {
@@ -30,6 +32,7 @@ export const BURGERS = [
     name: "Cheese Burger Simple + Papas Fritas",
     desc: "Medallon x1 Cheddar Feta x2",
     price: "$ 1.950",
+    link: "../../product/c",
   },
   {
     img: "/img/AmericanBurgerSimple.jpeg",
@@ -37,6 +40,7 @@ export const BURGERS = [
     name: "American Burger Simple + Papas Fritas",
     desc: "Medallon x 1 Cheddar Fetas x2 Tomate Lechuga Cebolla Cruda Dill Pickles Aderezo Thousand Island",
     price: "$ 2.350",
+    link: "../../product/d",
   },
   {
     img: "/img/GrilledOnion.jpeg",
@@ -93,5 +97,115 @@ export const BURGERS = [
     name: "Meatfree Burger 0% Carne + Papas Fritas",
     desc: "Medallon Plant Based x1 , Cheddar Fetas x2, Pickles de Pepino, Cebolla, Tomate, Lechuga, Mayonesa, Ketchup, Papas fritas",
     price: "$ 2.100",
+  },
+];
+export const STARTERS = [
+  {
+    img: "/img/papasfritas.jpeg",
+    alt: "Papas Fritas",
+    name: "Papas Fritas",
+    desc: "Papas Fritas",
+    price: "$ 850",
+  },
+  {
+    img: "/img/papaschedaryverdeo.jpeg",
+    alt: "Papas Cheddar y Verdeo",
+    name: "Papas Cheddar y Verdeo",
+    desc: "Papas Cheddar y Verdeo",
+    price: "$ 1.190",
+  },
+  {
+    img: "/img/papaschedarybacon.jpeg",
+    alt: "Papas Fritas Cheddar Bacon",
+    name: "Papas Fritas Cheddar Bacon",
+    desc: "Papas Fritas Cheddar Bacon",
+    price: "$ 1.490",
+  },
+  {
+    img: "/img/aros.jpeg",
+    alt: "Aros de Cebolla + BBQ",
+    name: "Aros de Cebolla + BBQ",
+    desc: "300grs de Aros de Cebolla + BBQ Casera",
+    price: "$ 1.490",
+  },
+  {
+    img: "/img/bastones.jpeg",
+    alt: "Bastones de Mozzarella",
+    name: "Bastones de Mozzarella",
+    desc: "12 Bastones de muzzarella + Salsa Marinara",
+    price: "$ 1.490",
+  },
+  {
+    img: "/img/nuggetsx10.jpeg",
+    alt: "Nuggets de Pollo x10",
+    name: "Nuggets de Pollo x10",
+    desc: "Nuggets de Pollo x10 Dip Ketchup Dip Salsa Ranch",
+    price: "$ 990",
+  },
+  {
+    img: "/img/nuggetsx10.jpeg",
+    alt: "Nuggets de Pollo x20",
+    name: "Nuggets de Pollo x20",
+    desc: "Nuggets de Pollo x20 Dip Ketchup Dip Salsa Ranch",
+    price: "$ 1.390",
+  },
+];
+
+export const BEBIDAS = [
+  {
+    img: "/img/pepsi.png",
+    alt: "Pepsi Regular 345ml",
+    name: "Pepsi Regular 345ml",
+    desc: "Pepsi Regular 345ml ",
+    price: "$ 400",
+  },
+  {
+    img: "/img/pepsiblack.png",
+    alt: "Pepsi Black 345ml",
+    name: "Pepsi Black 345ml",
+    desc: "Pepsi Black 345ml ",
+    price: "$ 400",
+  },
+  {
+    img: "/img/sevenup.png",
+    alt: "Seven Up Regular 345ml",
+    name: "Seven Up Regular 345ml",
+    desc: "Seven Up Regular 345ml ",
+    price: "$ 400",
+  },
+  {
+    img: "/img/sevenupfree.png",
+    alt: "Seven Up Free 345ml",
+    name: "Seven Up Free 345ml",
+    desc: "Seven Up Free 345ml ",
+    price: "$ 400",
+  },
+  {
+    img: "/img/agua.png",
+    alt: "Agua Mineral Sin Gas Eco de los Andes",
+    name: "Agua Mineral Sin Gas Eco de los Andes",
+    desc: "Agua Mineral Sin Gas Eco de los Andes ",
+    price: "$ 450",
+  },
+  {
+    img: "/img/247.png",
+    alt: "Cerveza Patagonia 24.7 410ml",
+    name: "Cerveza Patagonia 24.7 410ml",
+    desc: "Cerveza Patagonia 24.7 410ml ",
+    price: "$ 600",
+  },
+  {
+    img: "/img/bohemian.png",
+    alt: "Cerveza Patagonia Bohemian 410ml",
+    name: "Cerveza Patagonia Bohemian 410ml",
+    desc: "Cerveza Patagonia Bohemian 410ml ",
+    price: "$ 600",
+  },
+  {
+    img: "/img/amber.png",
+    alt: "Cerveza Patagonia Amber Lager 410ml",
+    name: "Cerveza Patagonia Amber Lager 410ml",
+    desc: "Cerveza Patagonia Amber Lager 410ml ",
+    price: "$ 600",
   },
 ];

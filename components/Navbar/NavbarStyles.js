@@ -27,7 +27,6 @@ export const Span = styled.span`
   text-align: left;
   text-transform: uppercase;
   cursor: pointer;
-  font-family: Montserrat;
   &:hover {
     color: #ffff;
   }

@@ -20,7 +20,7 @@ import {
   Button,
 } from "./IdStyles";
 import { useState } from "react";
-import styles from "../../styles/product.module.css";
+import styles from "../../styles/Product.module.css";
 
 export default function BurgerCard({ BurgerCard }) {
   const [size, setSize] = useState(0);
@@ -31,6 +31,7 @@ export default function BurgerCard({ BurgerCard }) {
     price: [2400, 2800, 3200],
     desc: "Medallon x1 Cheddar Fetas x2 Bacon Cebolla Crispy Aderezo Big Pons.",
   };
+
   return (
     <Container>
       <Left>

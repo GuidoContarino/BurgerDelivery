@@ -26,7 +26,7 @@ const BurgerCard = () => {
                 <Description>{p.desc}.</Description>
                 <Price>{p.price}</Price>
               </CardText>
-              <Link href={"../burger/{p.name}"}>
+              <Link href={"../burger/{p.name}"} passHref>
                 <Button>Ver</Button>
               </Link>
             </CardBody>

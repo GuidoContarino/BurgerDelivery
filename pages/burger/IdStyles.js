@@ -8,7 +8,6 @@ export const Container = styled.div`
     height: auto;
     text-align: center;
     flex-direction: column;
-    margin-top: 20px;
   }
 `;
 export const Left = styled.div`
@@ -46,6 +45,9 @@ export const Price = styled.span`
 `;
 export const Desc = styled.p`
   color: #fff;
+  @media screen and (max-width: 480px) {
+    padding: 10px 20px;
+  }
 `;
 
 export const Choose = styled.h3`
@@ -85,6 +87,10 @@ export const Number = styled.span`
   font-size: 13px;
   padding: 0 5px;
   border-radius: 10px;
+  @media screen and (max-width: 480px) {
+    font-size: 11px;
+    padding: 0 3px;
+  }
 `;
 
 export const Choose1 = styled.h3`
@@ -114,7 +120,9 @@ export const Label = styled.label`
   color: #fff;
 `;
 
-export const Add = styled.div``;
+export const Add = styled.div`
+  margin-top: 20px;
+`;
 
 export const Quantity = styled.input`
   width: 50px;
@@ -136,5 +144,10 @@ export const Button = styled.button`
   @media screen and (max-width: 480px) {
     height: 50px;
     padding: 10px 20px;
+    margin-bottom: 10px;
   }
+`;
+export const Input = styled.input`
+  width: 20px;
+  height: 20px;
 `;

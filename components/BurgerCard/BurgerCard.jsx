@@ -13,7 +13,7 @@ import {
 import { BURGERS } from "../Constants";
 import Link from "next/link";
 
-const BurgerCard = () => {
+const BurgerCard = ({ burgerId }) => {
   return (
     <Container>
       {BURGERS.map((p, i) => {
@@ -26,7 +26,7 @@ const BurgerCard = () => {
                 <Description>{p.desc}.</Description>
                 <Price>{p.price}</Price>
               </CardText>
-              <Link href={"../burger/{p.name}"} passHref>
+              <Link href={`./burger/{p.name}`} passHref>
                 <Button>Ver</Button>
               </Link>
             </CardBody>

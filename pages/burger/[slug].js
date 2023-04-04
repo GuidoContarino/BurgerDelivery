@@ -18,9 +18,10 @@ import {
   Add,
   Quantity,
   Button,
+  Input,
 } from "./IdStyles";
 import { useState } from "react";
-import styles from "../../styles/Product.module.css";
+import Link from "next/link";
 
 export default function BurgerCard({ BurgerCard }) {
   const [size, setSize] = useState(0);
@@ -58,48 +59,11 @@ export default function BurgerCard({ BurgerCard }) {
             <Number>Triple</Number>
           </Size>
         </Sizes>
-        <Choose1>Quitar Ingredientes</Choose1>
-        <Ingredients>
-          <Option>
-            <input
-              type="checkbox"
-              id="Bacon"
-              name="Bacon"
-              className={styles.checkbox}
-            />
-            <Label htmlFor="Bacon">Bacon</Label>
-          </Option>
-          <Option>
-            <input
-              className={styles.checkbox}
-              type="checkbox"
-              id="Cheddar"
-              name="Cheddar"
-            />
-            <Label htmlFor="Cheddar">Cheddar</Label>
-          </Option>
-          <Option>
-            <input
-              className={styles.checkbox}
-              type="checkbox"
-              id="Aderezo"
-              name="Aderezo"
-            />
-            <Label htmlFor="Aderezo">Aderezo Big Pons</Label>
-          </Option>
-          <Option>
-            <input
-              className={styles.checkbox}
-              type="checkbox"
-              id="Cebolla"
-              name="Cebolla"
-            />
-            <Label htmlFor="Cebolla">Cebolla Crispy</Label>
-          </Option>
-        </Ingredients>
         <Add>
           <Quantity type="number" defaultValue={1} />
-          <Button>Agregar a mi pedido</Button>
+          <Link href="../Cart/cart" passHref>
+            <Button>Agregar a mi pedido</Button>
+          </Link>
         </Add>
       </Right>
     </Container>

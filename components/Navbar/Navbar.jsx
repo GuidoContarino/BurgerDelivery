@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Nav, Img, NavMenu, Span, Cart, Div } from "./NavbarStyles";
 
 const Navbar = () => {
+  //const quantity = useSelector((state) => state.cart.quantity);
   return (
     <Nav>
       <Link href="/" passHref>
@@ -26,5 +27,4 @@ const Navbar = () => {
     </Nav>
   );
 };
-
 export default Navbar;

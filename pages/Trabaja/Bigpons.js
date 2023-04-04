@@ -52,9 +52,7 @@ export default function Navbar({ Navbar }) {
             ref={fileInputRef}
             onChange={handleFileUpload}
             accept=".pdf"
-            hidden
           />
-          <Button onClick={handleClick}>Subir CV</Button>
           <Button>Enviar</Button>
         </HalfLeft>
       </Form>

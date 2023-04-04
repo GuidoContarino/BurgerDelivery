@@ -24,8 +24,9 @@
 
 .name {
   font-weight: 500;
-  color: #d1411e;
+  color: #edb026;
   font-size: 18px;
+  text-align: center;
 }
 
 .total {
